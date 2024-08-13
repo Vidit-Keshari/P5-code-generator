@@ -1,0 +1,83 @@
+body {
+    background-color: aquamarine;
+}
+
+.btn-info {
+    width: 100%;
+    top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    height: fit-content;
+    cursor: default;
+}
+
+#heading {
+    font-size: xx-large;
+}
+
+.btn-info div {
+    font-size: 17px;
+}
+
+.copyright-footer {
+    bottom: 0;
+    position: fixed;
+    background-color: silver;
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+}
+
+canvas {
+    border-style: ridge;
+    border-width: 10px;
+    background-color: whitesmoke;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 30px aqua;}
+    to{box-shadow: 1px 1px 30px blue;}
+}
+
+p {
+    color: blue;
+    font-weight: 600;
+    font-size: large;
+}
+
+#canvas_controls {
+    text-align: center;
+    width: 600px;
+    height: fit-content;
+}
+
+.button {
+    margin-right: 50px;
+}
+
+.tribtn {
+    margin-right: 15px;
+}
+
+#contact {
+    text-align: center;
+    align-items: start;
+}
+
+#contact_links {
+    align-self: flex-end;
+    float: inline-end;
+    margin-left: 10px;
+}
+
+.webpage_info {
+    color: black !important;
+    font-weight: 777;
+    font-family: 'ink free';
+    box-shadow: 1px 1px 30px coral;
+    width: fit-content;
+    background-color: coral;
+}

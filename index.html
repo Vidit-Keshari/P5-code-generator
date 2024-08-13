@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>P5 code generator</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1 class="btn btn-info"> <span id="heading">Welcome Again</span>
+            <div>
+                <label>To my new website</label>
+                <br>
+                <label>A P5 shape making code generator</label>
+            </div>
+            <b class="btn-warning" style="border-radius: 10px; width: 200px !important;">Note: Turn on Fullsceen,
+                F11.</b>
+        </h1>
+        <br><br>
+        <p>This website can only generate 1 shape, you can create more shapes to get there code.</p>
+        <br><br>
+        <div id="p5_intro">
+            <div id="p5_intro_header">
+                <h3 style="color: blueviolet; font-weight: 666;">About P5.js</h3>
+            </div>
+            <div id="p5_intro_content">
+                <p>p5.js is a friendly tool for learning to code and make art. It is a free and open-source JavaScript
+                    library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners,
+                    educators, and anyone else!
+                    <br>
+                    <b>Taken from <a href="https://p5js.org">here</a></b>
+                </p>
+            </div>
+        </div>
+        <br><br>
+        <div id="intro">
+            <div id="intro_header">
+                <h3 style="color: blueviolet; font-weight: 666;">About this website</h3>
+            </div>
+            <div id="intro_content">
+                <p>Welcome to our P5.js Shape Generator! This interactive platform is crafted using P5.js, a
+                    powerful JavaScript library known for its creative coding capabilities. Our site offers a
+                    user-friendly interface where you can create geometric shapes such as squares, circles,
+                    and triangles simply by inputting dimensions and coordinates. Designed for both beginners
+                    and enthusiasts alike, the generator provides a seamless experience with real-time
+                    rendering on a interactive and dynamic canvas. Stay tuned as we plan to share the intricate details
+                    of our website's code, complete with insightful comments. This will not only illuminate the
+                    inner workings of our tool but also serve as an educational resource for those interested
+                    in exploring digital art and design through coding.</p>
+            </div>
+        </div>
+        <br><br>
+        <p>Canvas dimensions, width=700 & height=400, center point= 350, 200, update the X and Y co-ordinates according
+            to your canvas' size</p>
+        <br><br>
+        <p>I would be sharing the code of this website in next update for coders and website devlopers to understand</p>
+        <br><br>
+        <span>
+            <button onclick="mainRun('rectangle');" class="btn btn-danger button">Rectangle code generator</button>
+            <button onclick="mainRun('square');" class="btn btn-danger button">Square code generator</button>
+            <button onclick="mainRun('circle');" class="btn btn-danger button">Circle code generator</button>
+            <br><br>
+            <button onclick="mainRun('triangle');" class="btn btn-danger tribtn">Triangle code genrator</button>
+        </span>
+        <br><br>
+        <button onclick="gmail();" ondblclick="undefined_run_code();" class="btn btn-danger">Found a Bug? or any
+            mistake? A spelling error? Report me here.</button>
+            <br><br>
+    </center>
+    <div class="copyright-footer" onclick="copyright_info();">
+        <center>
+            By Vidit Keshari
+            <br>
+            <label>@All Rights reserved</label><br>
+            <span id="contact">
+            <label>Contact:
+                <div id="contact_links">
+                    <a href="https://github.com/Vidit-KEshari">My Github account</a>
+                    <br>
+                </div>
+            </label>
+            </span>
+        </center>
+    </div>
+    <div id="webpage_info">
+    <br><br><hr>
+    <p class="webpage_info" onclick="gmail_account();">By Vidit Keshari, made using VS code, hosted on Github</p>
+    <hr><br><br><br><br><br><br>
+    </div>
+</body>
+
+</html>
